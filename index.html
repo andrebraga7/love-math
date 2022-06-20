@@ -1,32 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@andrebraga7 
-Code-Institute-Solutions
-/
-love-maths-2.0-sourcecode
-Public
-generated from Code-Institute-Org/gitpod-full-template
-Code
-Issues
-Pull requests
-Actions
-Projects
-Wiki
-Security
-Insights
-love-maths-2.0-sourcecode/01-putting-the-basics-in-place/03-writing-some-html-part2/index.html
-@AJGreaves
-AJGreaves Add sourcecode for adding html part 1 lesson
-Latest commit 9ba6656 on 28 Jan 2021
- History
- 1 contributor
-56 lines (48 sloc)  1.85 KB
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -50,16 +21,16 @@ Latest commit 9ba6656 on 28 Jan 2021
 
     <div class="game-area">
         <div class="controls-area">
-            <button class="btn btn--big btn--green">
+            <button data-type="addition" class="btn btn--big btn--green">
                 <i class="fas fa-plus"></i>
             </button>
-            <button class="btn btn--big btn--blue">
+            <button data-type="subtract" class="btn btn--big btn--blue">
                 <i class="fas fa-minus"></i>
             </button>
-            <button class="btn btn--big btn--orange">
+            <button data-type="multiply" class="btn btn--big btn--orange">
                 <i class="fas fa-times"></i>
             </button>
-            <button class="btn btn--big btn--red">
+            <button data-type="division" class="btn btn--big btn--red">
                 <i class="fas fa-divide"></i>
             </button>
         </div>
@@ -71,7 +42,7 @@ Latest commit 9ba6656 on 28 Jan 2021
             <p class="answer-message">Enter Answer:</p>
             <input id="answer-box" type="number">
         </div>
-        <button class="btn btn--gray">Submit Answer</button>
+        <button data-type="submit" class="btn btn--gray">Submit Answer</button>
     </div>
 
     <div class="score-area">
